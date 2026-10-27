@@ -1,3 +1,6 @@
+# Схема пути клиента (User Flow)
+
+```mermaid
 flowchart TD
     Start([Клиент прибывает по геометке]) --> LookForSign[Ищет глазами вывеску]
     LookForSign --> IsSignVisible{Вывеска видна?}
